@@ -1,18 +1,18 @@
-# Class Activation Mapping (CAM) - Discriminative Localization
+#Class Activation Mapping (CAM) - Discriminative Localization
 
 This project demonstrates **Class Activation Mapping (CAM)** to enable discriminative localization — letting a CNN not only classify an image but also highlight the regions responsible for the decision.
 
 ---
 
-## Motivation
+##Motivation
 
 Traditional CNNs give you **what** the class is, but not **where** or **why**. CAM bridges this gap between **prediction** and **interpretation**.
 
 ---
 
-## Core Concepts
+##Core Concepts
 
-### 1. Discriminative Localization
+###1. Discriminative Localization
 - **Goal**: Highlight which part of the image led to the prediction.
 - Traditional CNNs output class labels but give no insight into the spatial regions influencing the decision.
 - *Example*: A CNN predicts "cat", but CAM shows the cat’s face contributed most.
